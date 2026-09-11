@@ -3,6 +3,10 @@ resource_group = {
     name     = "rg-centralindia"
     location = "centralindia"
   }
+  rg2 = {
+    name     = "rg-centralindia02"
+    location = "centralindia"
+  }
 }
 
 virtual_network = {
