@@ -1,8 +1,0 @@
-title = "Custom Gitleaks Config"
-
-[[rules]]
-id = "terraform-password"
-description = "Detect passwords in Terraform/Tfvars files"
-regex = '''(?i)(admin_password|password|passwd|pwd)\s*=\s*["']([^"']+)["']'''
-secretGroup = 2
-keywords = ["admin_password", "password", "passwd", "pwd"]
