@@ -1,4 +1,9 @@
 # Terraform Security Report
+tfsec-report.json
+tflint-report.json
+gitleaks-report.json
+.terraform.lock.hcl
+
 
 # Local .terraform directories
 .terraform/
